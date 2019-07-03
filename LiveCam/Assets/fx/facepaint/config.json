@@ -1,0 +1,68 @@
+{
+  "use frame light params": "true",
+  "use face light params": "true",
+
+  "iconPath": "./assets/fx/facepaint/icon.png",
+
+  "models": [
+    {
+      "type": "FacePaintModel",
+      "name": "Paint",
+      "texturedEyes": "false"
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./assets/shaders/vertex/facepaint.vertex",
+      "fragmentShader": "./assets/shaders/fragment/facepaint.frag"
+    }
+  ],
+
+  "modules": [
+    {
+      "iconPath": "./assets/fx/facepaint/icons/facepaint2.png",
+      "suits": [
+        {
+          "renderParamsID": 0,
+          "leftTexture": "./assets/fx/facepaint/textures/facepaint2.png",
+          "rightTexture": "./assets/fx/facepaint/textures/facepaint2.png",
+          "verticalOffset": 0.3
+        }
+      ]
+    },
+    {
+      "iconPath": "./assets/fx/facepaint/icons/facepaint1.png",
+      "suits": [
+        {
+          "renderParamsID": 0,
+          "leftTexture": "./assets/fx/facepaint/textures/facepaint1.png",
+          "rightTexture": "./assets/fx/facepaint/textures/facepaint1.png",
+          "verticalOffset": 0.3
+        }
+      ]
+    },
+    {
+      "iconPath": "./assets/fx/facepaint/icons/facepaint3.png",
+      "suits": [
+        {
+          "renderParamsID": 0,
+          "leftTexture": "./assets/fx/facepaint/textures/facepaint3.png",
+          "rightTexture": "./assets/fx/facepaint/textures/facepaint3.png",
+          "verticalOffset": 0.3
+        }
+      ]
+    },
+    {
+      "iconPath": "./assets/fx/facepaint/icons/facepaint4.png",
+      "suits": [
+        {
+          "renderParamsID": 0,
+          "leftTexture": "./assets/fx/facepaint/textures/facepaint4_left.png",
+          "rightTexture": "./assets/fx/facepaint/textures/facepaint4_right.png",
+          "verticalOffset": 0.3
+        }
+      ]
+    }
+  ]
+}

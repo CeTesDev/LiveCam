@@ -1,0 +1,63 @@
+{
+
+	"iconPath": "./Assets/fx/game_of_thrones/whitewalker/icon.png",
+
+  "models": [
+    {
+      "type": "3DModel",
+      "name": "helmet",
+      "OBJ": "./Assets/fx/game_of_thrones/whitewalker/ww.obj",
+      "MTL": "./Assets/fx/game_of_thrones/whitewalker/ww.mtl",
+      "modelShift": [ 0, 0, -0.1 ],
+      "modelScale": 2.2,
+      "particles": [
+        {
+          "JSONsource": "./Assets/fx/game_of_thrones/whitewalker/particles_eye-glow.json",
+          "coords": [ 0.5, 0.6, 1 ],
+          "enable_rotation": true
+        },
+        {
+          "JSONsource": "./Assets/fx/game_of_thrones/whitewalker/particles_cold-breath.json",
+          "coords": [ 0.5, 0.35, 1 ],
+          "enable_rotation": true
+        }
+      ]
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "normalMap": "./Assets/fx/game_of_thrones/whitewalker/textures/Normal.jpg",
+      "diffuseTexture": "./Assets/fx/game_of_thrones/whitewalker/textures/Albedo.png",
+      "specularTexture": "./Assets/fx/game_of_thrones/whitewalker/textures/Metalness.jpg",
+      "emissiveTexture": "./Assets/fx/game_of_thrones/whitewalker/textures/Emission.jpg",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.3, 0 ],
+        [ "ambientLight", 0.4, 0.4, 0.4 ],
+        [ "diffuseLight", 0.6, 0.6, 0.6 ],
+        [ "specularLight", 0.3, 0.3, 0.3 ],
+        [ "specularPower", 10 ]
+      ]
+    }
+  ],
+
+	"initialModules": [0, 0, 0, 0, 0],
+
+	"modules": [
+    {
+      "iconPath": "./Assets/fx/game_of_thrones/whitewalker/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/game_of_thrones/whitewalker/textures/Albedo.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

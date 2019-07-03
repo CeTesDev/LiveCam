@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_LiveCamWindow.cpp">
+      <Filter>UI\QT files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_res.cpp">
+      <Filter>UI\QT files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_res2.cpp">
+      <Filter>UI\QT files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_EmojiModelTab.cpp">
+      <Filter>UI\QT files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\modelTabs\EmojiModelTab.cpp">
+      <Filter>UI\Model Tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\modelTabs\Model3DTab.cpp">
+      <Filter>UI\Model Tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\modelTabs\RenderParamsTab.cpp">
+      <Filter>UI\Model Tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_Model3DTab.cpp">
+      <Filter>UI\QT files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_RenderParamsTab.cpp">
+      <Filter>UI\QT files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_resources.cpp">
+      <Filter>UI\QT files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\HorizontalScrollArea.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\$(Configuration)\moc_HorizontalScrollArea.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CVImageWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CVImageWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CVImageWidgetOrg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CVImageWidgetOrg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OutputWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OutputWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CVImageWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CVImageWidgetOrg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\EditorWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\OutputWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\LiveCamWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FilterManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FilterUiModel.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FrameManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FX.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ResourceManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\CommonClasses.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\CVImageUtil.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\JSONVectorReader.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\math3d.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\Resolutions.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\sceneSwitchDetector.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\Uniforms.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\ValueSmoother.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxModAlphaMask.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxModDepthMask.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxModSkeleton.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidget2D.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidget2DAlternate.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidget2DAnimated.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidget2DAtlas.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidget3D.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidget3DAnimated.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidgetFaceMask.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidgetFacePaint.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidgetFaceSwap.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidgetSprite.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\Detector.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Particles\ParticleDataTypes.cpp">
+      <Filter>Core\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Particles\ParticleManager.cpp">
+      <Filter>Core\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Particles\Particles.cpp">
+      <Filter>Core\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FilterButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\TrackingStructs.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\targa.cpp">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Graphics\GraphicsCommon.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Graphics\GraphicsLoader.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Graphics\GraphicsMain.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Graphics\GraphicsModel.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidgetFacePinch.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidgetFaceDistortion.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GLSL\GLSL.cpp">
+      <Filter>Core\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters\LegacyDragon.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters\BlackHoleSun.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FilterModel.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\TrackingTarget.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DebugTools.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FaceMapping.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Widgets\FxWidgetParticleEmitter.cpp">
+      <Filter>Core\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common\kdtree.c">
+      <Filter>Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\tf_utils.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\FaceKeypointScanner.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\FaceScanner.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\HandScanner.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tracking\SurfaceScanner.cpp">
+      <Filter>Core\Tracking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_EditorWindow.h">
+      <Filter>UI\QT files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_OutputWindow.h">
+      <Filter>UI\QT files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_EmojiModelTab.h">
+      <Filter>UI\QT files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_EditorWindow.h">
+      <Filter>UI\QT files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Model3DTab.h">
+      <Filter>UI\QT files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RenderParamsTab.h">
+      <Filter>UI\QT files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Core\FilterManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FilterUiModel.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FrameManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FX.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ResourceManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\CommonClasses.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\CVImageUtil.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\DrawUtil.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\JsonParser.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\JSONVectorReader.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\math3d.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\PointCalcUtil.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\Resolutions.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\sceneSwitchDetector.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\Uniforms.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\ValueSmoother.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxModAlphaMask.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxModDepthMask.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxModSkeleton.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidget2D.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidget2DAlternate.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidget2DAnimated.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidget2DAtlas.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidget3D.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidget3DAnimated.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidgetFaceMask.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidgetFacePaint.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidgetFaceSwap.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidgetSprite.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\Detector.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Particles\ParticleDataTypes.h">
+      <Filter>Core\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Particles\ParticleManager.h">
+      <Filter>Core\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Particles\Particles.h">
+      <Filter>Core\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FilterButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h" />
+    <ClInclude Include="Core\Tracking\TrackingStructs.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\targa.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Graphics\GraphicsCommon.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Graphics\GraphicsLoader.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Graphics\GraphicsMain.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Graphics\GraphicsModel.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidgetFacePinch.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidgetFaceDistortion.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GLSL\GL.h">
+      <Filter>Core\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GLSL\GLSL.h">
+      <Filter>Core\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\LegacyDragon.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\BlackHoleSun.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FilterModel.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\_Constants.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\_Constants.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\_Constants.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\TrackingTarget.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DebugTools.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FaceMapping.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Widgets\FxWidgetParticleEmitter.h">
+      <Filter>Core\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\kdtree.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\tf_utils.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\DetectorThreadPool.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common\PyTools.h">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\FaceKeypointScanner.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\FaceScanner.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\HandScanner.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\SurfaceScanner.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\ScannerInterface.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tracking\KeypointScannerInterface.h">
+      <Filter>Core\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Graphics\_Constants.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ui\OutputWindow.ui">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\LiveCamWindow.ui">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\res.qrc">
+      <Filter>UI\QT files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\EditorWindow.ui">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\res2.qrc">
+      <Filter>UI\QT files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\modelTabs\EmojiModelTab.ui">
+      <Filter>UI\Model Tabs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\modelTabs\EmojiModelTab.h">
+      <Filter>UI\Model Tabs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\modelTabs\Model3DTab.h">
+      <Filter>UI\Model Tabs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\modelTabs\Model3DTab.ui">
+      <Filter>UI\Model Tabs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\modelTabs\RenderParamsTab.h">
+      <Filter>UI\Model Tabs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\modelTabs\RenderParamsTab.ui">
+      <Filter>UI\Model Tabs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\resources.qrc">
+      <Filter>UI\QT files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\HorizontalScrollArea.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\CVImageWidget.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\CVImageWidgetOrg.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\EditorWindow.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\OutputWindow.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\LiveCamWindow.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{aeac85b7-a6c2-4fb9-952e-665d5ef17b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\QT files">
+      <UniqueIdentifier>{d634d6fd-5318-4f89-96b0-69c6ff5c4f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Model Tabs">
+      <UniqueIdentifier>{87d39645-07e9-484c-9b77-c79f8a85ac23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1103605c-3546-4bda-85ff-56dc52c173e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common">
+      <UniqueIdentifier>{fd2c3349-4be7-40f6-9502-f12f2b9a2c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Particles">
+      <UniqueIdentifier>{91697145-ea15-4c78-af41-81332ba3d1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Tracking">
+      <UniqueIdentifier>{b2ac05e9-5c27-4ee5-9f17-397f1b658f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Widgets">
+      <UniqueIdentifier>{ea247607-37b8-4428-8b8c-a46a9317b671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Graphics">
+      <UniqueIdentifier>{557ae4b1-837e-4983-b0bb-b275431d73f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GLSL">
+      <UniqueIdentifier>{894ebc77-0ddd-402d-81e2-4b4ee2190a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ec0cb17d-080f-4ca7-877e-9bbee8dcad8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filters">
+      <UniqueIdentifier>{f3a79e78-4f37-442f-8906-1886410b646c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GeneratedFiles\Debug\LiveCamWindow.moc">
+      <Filter>Generated Files</Filter>
+    </None>
+    <None Include="GeneratedFiles\Release\LiveCamWindow.moc">
+      <Filter>Generated Files</Filter>
+    </None>
+    <None Include="Assets\model\model.bin" />
+    <None Include="detect.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc" />
+  </ItemGroup>
+</Project>

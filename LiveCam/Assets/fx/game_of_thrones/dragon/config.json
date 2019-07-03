@@ -1,0 +1,142 @@
+{
+  "maxOnScreen": 1,
+  "models": [
+    {
+      "type": "3DAnimatedModel",
+      "name": "GameOfThronesDragon",
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00001.obj",
+      "modelShift": [ 0, 0, 0 ],
+      "modelScale": 2.5,
+      "particles": [
+        {
+          "JSONsource": "./Assets/fx/game_of_thrones/dragon/particles_eye-glow.json",
+          "coords": [ 0.5, 0.7, 0.7 ],
+          "enable_rotation": true,
+          "always_enabled": true
+        },
+        {
+          "JSONsource": "./Assets/fx/game_of_thrones/dragon/particles_dragon-fire.json",
+          "coords": [ 0.5, 0.5, 0.7 ],
+          "enable_rotation": true
+        }
+      ],
+      "Sequence": [
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00001.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00001.mtl",
+          "duration": 6.0
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00002.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00002.mtl"
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00003.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00003.mtl"
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00004.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00004.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00005.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00005.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00006.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00006.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00007.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00007.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00008.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00008.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00009.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00009.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000010.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000010.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000011.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000011.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000012.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000012.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000013.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000013.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000014.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000014.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000015.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000015.mtl",
+          "particlesEnabled": true
+        },
+        {
+          "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000016.obj",
+          "MTL": "./Assets/fx/game_of_thrones/dragon/models/Dragon_000016.mtl",
+          "particlesEnabled": true,
+          "duration": 20.0
+        }
+      ]
+    }
+  ],
+
+  "renderParams": [
+     {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "normalMap": "./Assets/fx/game_of_thrones/dragon/models/textures/Normal.jpg",
+      "diffuseTexture": "./Assets/fx/game_of_thrones/dragon/models/textures/Albedo.jpg",
+      "specularTexture": "./Assets/fx/game_of_thrones/dragon/models/textures/Specular.jpg",
+      "emissiveTexture": "./Assets/fx/game_of_thrones/dragon/models/textures/Emissive.png",
+      "cullFace": "false",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.3, 0 ],
+        [ "ambientLight", 0.3, 0.3, 0.3 ],
+        [ "diffuseLight", 1, 1, 1 ],
+        [ "specularLight", 0.1, 0.1, 0.1 ],
+        [ "specularPower", 20 ]
+      ]
+    }
+  ],
+
+  "initialModules": [ 0 ],
+
+  "modules": [
+    {
+      "iconPath": "Assets/fx/game_of_thrones/dragon/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/game_of_thrones/dragon/models/textures/Albedo.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

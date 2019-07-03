@@ -1,0 +1,209 @@
+{	
+	"emitters":
+	[
+	{
+		"name": "LeftGlowingEye",
+		"maxParticles": 500,
+		"preloading": 100,
+		
+		"texturePath": "./Assets/fx/game_of_thrones/dragon/EyeGlow.png",
+		"textureSize": [ 64, 64 ],
+		"hasInertion": "false",
+		"gravity": [ 0, 0, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"value": 10
+		},
+
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 10
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"value": [ 400, -100, 0 ]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"value": 5
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.7, 0, 1 ]
+		}
+	},
+	{
+		"name": "LeftGlowingEyePupil",
+		"maxParticles": 500,
+		"preloading": 100,
+		
+		"texturePath": "./Assets/fx/game_of_thrones/dragon/EyeGlowPupil.png",
+		"textureSize": [ 32, 32 ],
+		"hasInertion": "false",
+		"gravity": [ 0, 0, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"value": 10
+		},
+
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 10
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+
+		"coords":
+		{
+			"value": [ 450, -50, 10 ]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"value": 4
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.8, 0, 0.5 ]
+		}
+	},
+	{
+		"name": "RightGlowingEye",
+		"maxParticles": 500,
+		"preloading": 100,
+		
+		"texturePath": "./Assets/fx/game_of_thrones/dragon/EyeGlow.png",
+		"textureSize": [ 64, 64 ],
+		"hasInertion": "false",
+		"gravity": [ 0, 0, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"value": 10
+		},
+
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 10
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"value": [ -400, -100, 0 ]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"value": 5
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.7, 0, 1 ]
+		}
+	},
+	{
+		"name": "RightGlowingEyePupil",
+		"maxParticles": 500,
+		"preloading": 100,
+		
+		"texturePath": "./Assets/fx/game_of_thrones/dragon/EyeGlowPupil.png",
+		"textureSize": [ 32, 32 ],
+		"hasInertion": "false",
+		"gravity": [ 0, 0, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"value": 10
+		},
+
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 10
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"value": [ -450, -50, 10 ]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"value": 4
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.8, 0, 0.5 ]
+		}
+	}
+	]
+}

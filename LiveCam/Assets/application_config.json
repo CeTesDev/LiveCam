@@ -1,0 +1,17 @@
+{
+  "inputWidth": 1920,
+  "inputHeight": 1080,
+  "outputWidth": 1920,
+  "outputHeight": 1080,
+  "antiAliasing": "SSAA_4X",
+  "filterConfig": "./assets/fx/config.json",
+  "faceDetector": "Tensorflow",
+  "landmarkDetector": "Caffe3D",
+  "maxTargets": 4,
+  "targetLocatedDelay": 500,
+  "targetLostDelay": 500,
+  "fpsLock": 60,
+  "scanIntensity": 1.0,
+  "xySmoothing": 30,
+  "zSmoothing": 60
+}

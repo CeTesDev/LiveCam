@@ -1,0 +1,21 @@
+# Blender MTL File: 'ww.blend'
+# Material Count: 1
+
+newmtl initialShadingGroup
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+disp textures\\Roughness.jpg
+map_Bump textures\\Normal.jpg
+map_Ka textures\\Emission.jpg
+map_Kd textures\\Albedo.png
+map_Ke textures\\Emission.jpg
+map_Ks textures\\Metalness.jpg
+map_Ns textures\\Metalness.jpg
+map_Tr textures\\Albedo.png
+map_d textures\\Albedo.png

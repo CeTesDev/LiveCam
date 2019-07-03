@@ -1,0 +1,94 @@
+{
+	"iconPath": "./assets/fx/dog/icon.png",
+	  
+  "models": [
+    {
+		"type": "3DModel",
+		"OBJ": "./assets/fx/dog/models/dog_ears.obj",
+    "MTL": "./assets/fx/dog/models/dog_ears.mtl", 
+		"modelShift": [0.02, 0.7, 0.18],
+		"modelScale": 1.33
+    },
+    {
+		"type": "LipsJoint3DModel",
+		"OBJ": "./assets/fx/dog/models/dog_nose.obj",
+    "MTL": "./assets/fx/dog/models/dog_nose.mtl", 
+		"modelShift": [0, 0.15, 0],
+		"modelScale": 0.5
+    },
+    {
+		"type": "2DAnimatedModel"
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./assets/shaders/fragment/phong.frag",
+      "normalMap": "./assets/fx/dog/models/textures/Ear_Normal.jpg",
+      "diffuseTexture": "./assets/fx/dog/models/textures/Ear_Diffuse.jpg",
+      "specularTexture": "./assets/fx/dog/models/textures/Ear_Specular.jpg",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.2, 0.4, 1, 0 ],
+        [ "ambientLight", 0.5, 0.5, 0.5 ],
+        [ "diffuseLight", 0.5, 0.5, 0.5 ],
+        [ "specularLight", 0.0, 0.0, 0.0 ],
+        [ "specularPower", 1 ]
+      ]
+    },
+    {
+      "vertexShader": "./assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./assets/shaders/fragment/phong.frag",
+      "normalMap": "./assets/fx/dog/models/textures/Nose_Normal.jpg",
+      "diffuseTexture": "./assets/fx/dog/models/textures/Nose_Diffuse.jpg",
+      "specularTexture": "./assets/fx/dog/models/textures/Nose_Specular.jpg",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.2, 0.4, 1, 0 ],
+        [ "ambientLight", 0.5, 0.5, 0.5 ],
+        [ "diffuseLight", 0.5, 0.5, 0.5 ],
+        [ "specularLight", 0.5, 0.5, 0.5 ],
+        [ "specularPower", 30 ]
+      ]
+    },
+    {
+      "vertexShader": "./assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./assets/shaders/fragment/default.frag",
+	  "cullFace": "false",
+	  "alphaTest": "true",
+	  "blend": "true"
+    }
+  ],
+		
+	"initialModules": [ 0 ],	
+	
+	"modules": [
+    {
+      "iconPath": "./assets/fx/dog/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./assets/fx/dog/models/textures/Ear_Diffuse.jpg"
+          ]
+        },
+        {
+          "renderParamsIDs": [ 1, 0 ],
+          "modelTextures": [
+            "./assets/fx/dog/models/textures/Nose_Diffuse.jpg",
+            "./assets/fx/dog/models/textures/Nose_Diffuse2.jpg"
+          ]
+        },
+        {
+			"renderParamsID": 2,
+			"animationRotation": "true",
+			"animationPath": "./assets/fx/dog/animations/tongueSequence/",
+			"animationOffset": [ 0, -0.76, -0.09 ],
+			"animationScale": [ 0.8, 0.8 ],
+			"animationOpened": 46
+        }
+      ]
+    }
+  ]
+}

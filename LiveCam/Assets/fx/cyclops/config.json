@@ -1,0 +1,58 @@
+{
+
+	"iconPath": "./Assets/fx/cyclops/icon.png",
+
+  "models": [
+    {
+      "type": "DepthMask",
+      "zOffset": -0.033
+    },
+    {
+      "type": "3DModel",
+      "name": "helmet",
+      "OBJ": "./Assets/fx/cyclops/visor.obj",
+      "MTL": "./Assets/fx/cyclops/visor.mtl",
+      "modelShift": [ 0.1, 0, 0.22 ],
+      "modelScale": 1.5,
+      "particles": [
+        {
+          "JSONsource": "./Assets/fx/cyclops/particles_eye-beam.json",
+          "coords": [ 0.5, 0.8, 0.9 ],
+          "enable_rotation": true
+        }
+      ]
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.5, 0 ],
+        [ "ambientLight", 0.4, 0.4, 0.4 ],
+        [ "diffuseLight", 0.8, 0.8, 0.8 ],
+        [ "specularLight", 1, 1, 1 ],
+        [ "specularPower", 20 ]
+      ]
+    }
+  ],
+
+	"initialModules": [0, 0, 0, 0, 0],
+
+	"modules": [
+    {
+      "iconPath": "./Assets/fx/cyclops/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/cyclops/maps/Mix_Mix.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

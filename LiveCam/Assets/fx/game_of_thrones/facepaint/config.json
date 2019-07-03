@@ -1,0 +1,54 @@
+{
+  "use frame light params": "true",
+  "use face light params": "true",
+
+  "iconPath": "./assets/fx/game_of_thrones/facepaint/icon.png",
+
+  "models": [
+    {
+      "type": "FacePaintModel",
+      "name": "Face",
+      "texturedMouth": "true",
+      "texturedEyes": "true"
+    }
+  ],
+
+  "particles": [
+    {
+      "JSONsource": "./Assets/fx/game_of_thrones/facepaint/particles_winter-is-here.json",
+      "coords": [ 0.5, 1, 0 ]
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./assets/shaders/vertex/facepaint.vertex",
+      "fragmentShader": "./assets/shaders/fragment/facepaint.frag"
+    }
+  ],
+
+  "modules": [
+    {
+      "iconPath": "./assets/fx/game_of_thrones/facepaint/walker1/icon.png",
+      "suits": [
+        {
+          "renderParamsID": 0,
+          "leftTexture": "./assets/fx/game_of_thrones/facepaint/walker1/face_eyes.png",
+          "rightTexture": "./assets/fx/game_of_thrones/facepaint/walker1/face_eyes.png",
+          "verticalOffset": 0.4
+        }
+      ]
+    },
+    {
+      "iconPath": "./assets/fx/game_of_thrones/facepaint/walker2/icon.png",
+      "suits": [
+        {
+          "renderParamsID": 0,
+          "leftTexture": "./assets/fx/game_of_thrones/facepaint/walker2/face.png",
+          "rightTexture": "./assets/fx/game_of_thrones/facepaint/walker2/face.png",
+          "verticalOffset": 0.3
+        }
+      ]
+    }
+  ]
+}

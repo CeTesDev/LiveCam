@@ -1,0 +1,438 @@
+{	
+	"emitters":
+	[{
+		"name": "DragonFireFlameRed",
+		"maxParticles": 1000,
+		"preloading": 500,
+		
+		"texturePath": "./assets/particles/textures/fire.png",
+		"textureSize": [ 128, 128 ],
+		"gravity": [ 0, 800, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 1.000,
+				"value": 500
+			}
+			]
+		},
+		
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"min": 0.1,
+			"max": 1.0
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 0, 0, 0 ]
+			},
+			{
+				"t": 0.300,
+				"min": [ 300, -100, 0 ],
+				"max": [ -300, 300, 0 ]
+			},
+			{
+				"t": 1.000,
+				"min": [ 0, 400, 0 ],
+				"max": [ 0, 600, 0 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "DISCRETE",
+			"timeline":
+			[
+			{
+				"min": 0.5,
+				"max": 1.5
+			}
+			]
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.2, 0, 1 ]
+		}
+	},
+	{
+		"name": "DragonFireFlameOrange",
+		"maxParticles": 1000,
+		"preloading": 500,
+		
+		"texturePath": "./assets/particles/textures/fire.png",
+		"textureSize": [ 128, 128 ],
+		"gravity": [ 0, 600, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 1.000,
+				"value": 500
+			}
+			]
+		},
+		
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"min": 0.1,
+			"max": 0.9
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 0, 0, 2 ]
+			},
+			{
+				"t": 0.300,
+				"min": [ 300, -300, 2 ],
+				"max": [ -300, 300, 2 ]
+			},
+			{
+				"t": 1.000,
+				"min": [ 0, 300, 2 ],
+				"max": [ 0, 500, 2 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "DISCRETE",
+			"timeline":
+			[
+			{
+				"min": 0.5,
+				"max": 1.5
+			}
+			]
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.5, 0, 1 ]
+		}
+	},
+	{
+		"name": "DragonFireFlameOrange2",
+		"maxParticles": 1000,
+		"preloading": 100,
+		
+		"texturePath": "./assets/particles/textures/fire2.png",
+		"textureSize": [ 128, 128 ],
+		
+		"hasInertion": "false",
+		"gravity": [ 0, 500, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 1.000,
+				"value": 100
+			}
+			]
+		},
+		
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"min": 0.1,
+			"max": 0.85
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 0, 0, 4 ]
+			},
+			{
+				"t": 0.300,
+				"min": [ -300, -200, 4 ],
+				"max": [ 300, 200, 4 ]
+			},
+			{
+				"t": 1.000,
+				"min": [ -10, -10, 4 ],
+				"max": [ 10, 10, 4 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "DISCRETE",
+			"timeline":
+			[
+			{
+				"min": 0.5,
+				"max": 1.5
+			}
+			]
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.6, 0, 1 ]
+		}
+	},
+	{
+		"name": "DragonFireFlameYellow",
+		"maxParticles": 5000,
+		"preloading": 500,
+		
+		"texturePath": "./assets/particles/textures/fire.png",
+		"textureSize": [ 64, 64 ],
+		
+		"hasInertion": "false",
+		"gravity": [ 0, 400, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 1.000,
+				"value": 500
+			}
+			]
+		},
+		
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"min": 0.1,
+			"max": 0.78
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 0, 0, 6 ]
+			},
+			{
+				"t": 0.300,
+				"min": [ -200, -300, 6 ],
+				"max": [ 200, 300, 6 ]
+			},
+			{
+				"t": 1.000,
+				"min": [ -10, -10, 6 ],
+				"max": [ 10, 10, 6 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "DISCRETE",
+			"timeline":
+			[
+			{
+				"min": 0.5,
+				"max": 1.5
+			}
+			]
+		},
+		
+		"color":
+		{
+			"value": [ 1, 1, 0, 1 ]
+		}
+	},
+	{
+		"name": "DragonFireFlameWhite",
+		"maxParticles": 100,
+		"preloading": 10,
+		
+		"texturePath": "./assets/particles/textures/fire3.png",
+		"textureSize": [ 32, 32 ],
+		"gravity": [ 0, 0, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 1.000,
+				"value": 10
+			}
+			]
+		},
+		
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"min": 0.1,
+			"max": 0.8
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 0, 0, 8 ]
+			},
+			{
+				"t": 0.300,
+				"min": [ -200, -200, 8 ],
+				"max": [ 200, 200, 8 ]
+			},
+			{
+				"t": 1.000,
+				"min": [ -10, 0, 8 ],
+				"max": [ 10, 300, 8 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "DISCRETE",
+			"timeline":
+			[
+			{
+				"min": 0.5,
+				"max": 1.5
+			}
+			]
+		},
+		
+		"color":
+		{
+			"value": [ 1, 1, 1, 1 ]
+		}
+	}
+	]
+}

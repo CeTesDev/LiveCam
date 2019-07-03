@@ -1,0 +1,26 @@
+#version 450
+layout (location = 0) in vec3 VertexPosition;
+layout (location = 1) in vec3 VertexNormal;
+layout (location = 2) in vec2 VertexTexCoord;
+
+out vec3 Position;
+out vec3 Normal;
+out vec2 TexCoord;
+out vec3 ReflectVector;
+
+uniform mat4 ModelViewMatrix;
+uniform mat4 ProjectionMatrix;
+uniform vec4 cameraPos;
+
+void main()
+{
+ Normal = VertexNormal;
+ 
+ Position = vec3( ModelViewMatrix * vec4(VertexPosition,1.0) );
+ gl_Position = ProjectionMatrix * ModelViewMatrix * vec4(VertexPosition,1.0);
+ 
+ TexCoord = VertexTexCoord;
+ vec3 unitNormal = normalize(VertexNormal);
+ vec3 viewVector = normalize(Position.xyz - vec3(cameraPos));
+ ReflectVector = reflect(viewVector, unitNormal);
+}

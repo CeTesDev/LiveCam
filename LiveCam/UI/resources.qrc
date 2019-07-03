@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/arrowDown.png</file>
+        <file>images/arrowUp.png</file>
+        <file>images/CameraIcon2.png</file>
+        <file>images/LOGO.png</file>
+        <file>images/CameraIcon.png</file>
+        <file>images/GameChangerLogo.png</file>
+        <file>images/arrowLeft.png</file>
+        <file>images/arrowRight.png</file>
+        <file>images/checkmark.png</file>
+        <file>images/showFilters.png</file>
+        <file>images/showFiltersHovered.png</file>
+        <file>images/showFiltersOn.png</file>
+        <file>images/showFiltersOnHovered.png</file>
+        <file>images/startOutput.png</file>
+        <file>images/startOutputHovered.png</file>
+        <file>images/startOutputOn.png</file>
+        <file>images/startOutputOnHovered.png</file>
+        <file>images/emoji.png</file>
+        <file>images/app-logo.png</file>
+    </qresource>
+</RCC>

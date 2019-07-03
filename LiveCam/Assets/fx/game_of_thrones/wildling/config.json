@@ -1,0 +1,52 @@
+{
+
+  "iconPath": "./assets/fx/game_of_thrones/wildling/icon.png",
+
+  "models": [
+    {
+      "type": "DepthMask",
+      "zOffset": -0.033
+    },
+    {
+      "type": "3DModel",
+      "name": "helmet",
+      "OBJ": "./assets/fx/game_of_thrones/wildling/wildling.obj",
+      "MTL": "./assets/fx/game_of_thrones/wildling/wildling.mtl",
+      "modelShift": [ 0, 0, 0.22 ],
+      "modelScale": 1.1
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "cullFace": "true",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.3, 0 ],
+        [ "ambientLight", 0.4, 0.4, 0.4 ],
+        [ "diffuseLight", 0.6, 0.6, 0.6 ],
+        [ "specularLight", 0.3, 0.3, 0.3 ],
+        [ "specularPower", 10 ]
+      ]
+    }
+  ],
+
+  "initialModules": [0, 0, 0, 0, 0],
+
+  "modules": [
+    {
+      "iconPath": "./assets/fx/game_of_thrones/wildling/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./assets/fx/game_of_thrones/wildling/wildling_texture.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "filterConfig": [
+    {
+      "title": "Dragon",
+      "icon": "./assets/fx/game_of_thrones/dragon/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/dragon/config.json"
+    },
+    {
+      "title": "Night King",
+      "icon": "./assets/fx/game_of_thrones/night_king/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/night_king/config.json"
+    },
+    {
+      "title": "Whitewalker Head",
+      "icon": "./assets/fx/game_of_thrones/whitewalker/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/whitewalker/config.json"
+    },
+    {
+      "title": "Whitewalker Facepaint",
+      "icon": "./assets/fx/game_of_thrones/facepaint/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/facepaint/config.json"
+    },
+    {
+      "title": "Wildling Beard",
+      "icon": "./assets/fx/game_of_thrones/wildling/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/wildling/config.json"
+    }
+  ]
+}

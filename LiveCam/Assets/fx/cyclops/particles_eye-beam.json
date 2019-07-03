@@ -1,0 +1,79 @@
+{	
+	"emitters":
+	[
+	{
+		"name": "Beam1",
+		"maxParticles": 10000,
+		"preloading": 1100,
+		
+		"texturePath": "./Assets/fx/cyclops/textures/beam.png",
+		"textureSize": [ 512, 40 ],
+		"hasInertion": "false",
+		"gravity": [0, 0, 0],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timelineType": "LOOPED",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 1.000,
+				"value": 1100
+			}
+			]
+		},
+		
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 2
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_EFFECT",
+		
+		"coords":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ -400, 0, 0 ]
+			},
+			{
+				"t": 1.000,
+				"value": [ 0, 0, 10000 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"value": 1.0
+		},
+		
+		"color":
+		{
+			"value": [ 1, 0.8, 0.2, 1 ]
+		}
+	}
+	]
+}

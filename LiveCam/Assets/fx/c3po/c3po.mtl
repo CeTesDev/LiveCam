@@ -1,0 +1,54 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl Material.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd netwire.jpg
+map_Ks netwire_z.jpg
+
+newmtl Material.002
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd netwire.jpg
+map_Ks netwire_z.jpg
+
+newmtl eye_int
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.049546 0.049546 0.049546
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl int_lamp
+Ns 392.156863
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.759027 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Diffuse.jpg
+disp Roughness.jpg
+map_Bump Specular.jpg
+map_Ka Specular.jpg
+map_Ks Specular.jpg
+map_Ns Specular.jpg
+map_Tr Diffuse.jpg
+map_d Diffuse.jpg

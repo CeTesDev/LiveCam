@@ -1,0 +1,108 @@
+{	
+	"effectWidth": 1920,
+
+	"emitters":
+	[
+	{
+		"name": "WinterIsHere",
+		"maxParticles": 10000,
+		"preloading": 1000,
+		
+		"texturePath": "./Assets/fx/game_of_thrones/whitewalker/textures/Breath.png",
+		"textureSize": [ 16, 16 ],
+		"hasInertion": "false",
+		"gravity": [ 0, 500, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 10.000,
+				"value": 500
+			}
+			]
+		},
+
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 10
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_EFFECT",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"min": [ -900, 0, 0 ],
+				"max": [ 900, 0, 1000 ]
+			},
+			{
+				"t": 10.000,
+				"min": [ -900, -2000, 0 ],
+				"max": [ 900, -4000, 1000 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "DISCRETE",
+			"timeline":
+			[
+			{
+				"min": 1,
+				"max": 4
+			}
+			]
+		},
+		
+		"color":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 1, 1, 1, 1 ]
+			},
+			{
+				"t": 1.000,
+				"value": [ 1, 1, 1, 1 ]
+			},
+			{
+				"t": 2.000,
+				"value": [ 1, 1, 1, 0.5 ]
+			},
+			{
+				"t": 3.000,
+				"value": [ 1, 1, 1, 0.1 ]
+			}
+			]
+		}
+	}
+	]
+}

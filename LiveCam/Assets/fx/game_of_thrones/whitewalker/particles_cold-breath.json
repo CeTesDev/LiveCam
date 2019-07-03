@@ -1,0 +1,241 @@
+{	
+	"emitters":
+	[
+	{
+		"name": "ColdBreath1",
+		"maxParticles": 2000,
+		"preloading": 500,
+		
+		"texturePath": "./Assets/fx/game_of_thrones/whitewalker/textures/Breath.png",
+		"textureSize": [ 128, 128 ],
+		"hasInertion": "false",
+		"gravity": [ 0, 0, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 3.000,
+				"value": 50
+			}
+			]
+		},
+
+		"spawnRange":
+		{
+			"value": [ 0, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 3
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"min": [ -300, 0, 0 ],
+				"max": [ 300, 0, 0 ]
+			},
+			{
+				"t": 3.000,
+				"min": [ 0, 0, 100 ],
+				"max": [ 0, -400, 1000 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timelineType": "LOOPED",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0.1
+			},
+			{
+				"t": 0.500,
+				"value": 10.0
+			},
+			{
+				"t": 1.000,
+				"value": 9.0
+			},
+			{
+				"t": 2.000,
+				"value": 4.0
+			},
+			{
+				"t": 3.000,
+				"value": 0.1
+			}
+			]
+		},
+		
+		"color":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 1, 1, 1, 1 ]
+			},
+			{
+				"t": 1.000,
+				"value": [ 1, 1, 1, 1 ]
+			},
+			{
+				"t": 2.000,
+				"value": [ 1, 1, 1, 0.5 ]
+			},
+			{
+				"t": 3.000,
+				"value": [ 1, 1, 1, 0.1 ]
+			}
+			]
+		}
+	},
+	{
+		"name": "ColdBreath2",
+		"maxParticles": 2000,
+		"preloading": 500,
+		
+		"texturePath": "./Assets/fx/game_of_thrones/whitewalker/textures/Breath.png",
+		"textureSize": [ 128, 128 ],
+		"hasInertion": "false",
+		"gravity": [ 0, -300, 0 ],
+		
+		"spawnRange_system": "PARTICLE_EFFECT",
+		
+		"spawnTotal":
+		{
+			"interpolation": "LINEAR_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0
+			},
+			{
+				"t": 3.000,
+				"value": 20
+			}
+			]
+		},
+
+		"spawnRange":
+		{
+			"value": [ 360, 0, 0, 0 ]
+		},
+		
+		"lifeTime":
+		{
+			"value": 3
+		},
+		
+		"coords_system": "PARTICLE_EFFECT",
+		"coords_axis_system": "PARTICLE_BIRTH",
+		"rotation_system": "PARTICLE_ITSELF",
+		
+		"coords":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"min": [ -400, 0, 0 ],
+				"max": [ 400, 0, 0 ]
+			},
+			{
+				"t": 3.000,
+				"min": [ -500, 0, 200 ],
+				"max": [ 500, -400, 800 ]
+			}
+			]
+		},
+		
+		"rotation":
+		{
+			"value": [ 0, 0, 0 ]
+		},
+		
+		"scale":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timelineType": "LOOPED",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": 0.1
+			},
+			{
+				"t": 0.500,
+				"value": 10.0
+			},
+			{
+				"t": 1.000,
+				"value": 9.0
+			},
+			{
+				"t": 2.000,
+				"value": 4.0
+			},
+			{
+				"t": 3.000,
+				"value": 0.1
+			}
+			]
+		},
+		
+		"color":
+		{
+			"interpolation": "CUBIC_SPLINE",
+			"timeline":
+			[
+			{
+				"t": 0.000,
+				"value": [ 1, 1, 1, 1 ]
+			},
+			{
+				"t": 1.000,
+				"value": [ 1, 1, 1, 1 ]
+			},
+			{
+				"t": 2.000,
+				"value": [ 1, 1, 1, 0.5 ]
+			},
+			{
+				"t": 3.000,
+				"value": [ 1, 1, 1, 0.1 ]
+			}
+			]
+		}
+	}
+	]
+}

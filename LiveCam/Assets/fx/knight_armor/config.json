@@ -1,0 +1,53 @@
+{
+
+	"iconPath": "./assets/fx/knight_armor/icon.png",
+
+  "models": [
+		{
+      "type": "DepthMask",
+      "zOffset": -0.033
+    },
+    {
+      "type": "3DModel",
+      "name": "helmet",
+      "OBJ": "./assets/fx/knight_armor/models/Helmet.obj",
+      "MTL": "./assets/fx/knight_armor/models/Helmet.mtl",
+      "modelShift": [ 0, 0.22, 0.22 ],
+      "modelScale": 1.22
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./assets/shaders/fragment/phong.frag",
+      "diffuseTexture": "./Assets/fx/knight_armor/models/MI_Gold.jpg",
+      "specularTexture": "./Assets/fx/knight_armor/models/MI_Gold.jpg",
+      "cullFace": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.3, 0 ],
+        [ "ambientLight", 0.3, 0.3, 0.3 ],
+        [ "diffuseLight", 0.4, 0.4, 0.4 ],
+        [ "specularLight", 0.8, 0.8, 0.8 ],
+        [ "specularPower", 50 ]
+      ]
+    }
+  ],
+
+	"initialModules": [0, 0, 0, 0, 0],
+
+	"modules": [
+    {
+      "iconPath": "./assets/fx/knight_armor/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./assets/fx/knight_armor/models/Tex.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

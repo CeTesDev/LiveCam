@@ -1,0 +1,38 @@
+{
+  "use frame light params": "true",
+  "use face light params": "true",
+
+  "iconPath": "./assets/fx/game_of_thrones/night_king/icon.png",
+
+  "models": [
+    {
+      "type": "FacePaintModel",
+      "name": "NightKingFace",
+      "texturedEyes": "true",
+      "texturedMouth": "true"
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./assets/shaders/vertex/facepaint.vertex",
+      "fragmentShader": "./assets/shaders/fragment/facepaint.frag"
+    }
+  ],
+
+  "initialModules": [0, 0, 0, 0, 0],
+
+  "modules": [
+    {
+      "iconPath": "Assets/fx/game_of_thrones/night_king/icon.png",
+      "suits": [
+        {
+          "renderParamsID": 0,
+          "leftTexture": "./Assets/fx/game_of_thrones/night_king/face.png",
+          "rightTexture": "./Assets/fx/game_of_thrones/night_king/face.png",
+          "verticalOffset": 0.3
+        }
+      ]
+    }
+  ]
+}
